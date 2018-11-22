@@ -8,8 +8,6 @@ Rails.application.routes.draw do
 
   get "cocktails/:id", to: "cocktails#show"
 
-  get "doses/new", to: "doses#new"
-
   post "doses", to: "doses#create"
 
   delete "doses", to: "doses#delete"
